@@ -1,4 +1,4 @@
-from model.daftar_nilai import kontak
+from model.daftar_nilai import Data_Mahasiswa
 
 def header():
     print("===========================================================================")
@@ -22,7 +22,7 @@ def cetak():
     print("| NO |      NAMA       |       NIM        | TUGAS |  UTS  |  UAS  | AKHIR |")
     print("|====|=================|==================|=======|=======|=======|========")
     no = 1
-    for tabel in kontak.values():
+    for tabel in Data_Mahasiswa.values():
         print("║{0:3} ║ {1:15} ║ {2:16} ║ {3:5} ║ {4:5} ║ {5:5} ║ {6:5} ║"
               .format(no, tabel[0], tabel[1], tabel[2], tabel[3], tabel[4], tabel[5]))
         no += 1
