@@ -6,6 +6,10 @@ Kelas : TI.22.A3
 
 NIM : 312210301
 
+File PDF : [Projects UAS_Fabian Eka Prasetyo_312210301.pdf](https://github.com/ReOrize5/Project_UAS1/files/10373752/Projects.UAS_Fabian.Eka.Prasetyo_312210301.pdf)
+
+Lin Youtube : https://youtu.be/9xnqwv_er18
+
 ![Soal Projects UAS](https://user-images.githubusercontent.com/115756982/211283357-2e5af6b8-d7e4-4c84-ae61-f4132d414931.png)
 
 
