@@ -1,5 +1,5 @@
 def inputan():
-    from model.daftar_nilai import tambah_kontak
+    from model.daftar_nilai import tambah_Data_Mahasiswa
     while (True):
         nama = input("NAMA   : ")
         if nama == '':
@@ -42,13 +42,13 @@ def inputan():
             print('Masukan UAS dengan Angka')
         else:
             break
-    tambah_kontak(nama, nim, tugas, uts, uas)
+    tambah_Data_Mahasiswa(nama, nim, tugas, uts, uas)
     print("\n    (T) Tambah       (U) Ubah      (H) Hapus     (C) Cari      (L) Lihat     (K) Keluar   ")
 
 
 def ubah():
-    from model.daftar_nilai import ubah_kontak
-    ubah_kontak(nama=input("Masukan nama untuk ubah data : "))
+    from model.daftar_nilai import ubah_Data_Mahaiswa
+    ubah_Data_Mahaiswa(nama=input("Masukan nama untuk ubah data : "))
 
 
 def hapus():
